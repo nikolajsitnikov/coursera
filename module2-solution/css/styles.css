@@ -1,6 +1,7 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 h1 {
   margin-bottom: 15px;
@@ -9,10 +10,9 @@ h1 {
 p {
   background-color: grey;
   width: 90%;
-  height: 200px;
+  height: auto;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
   color: black;
 }
 .heading{
@@ -26,19 +26,35 @@ p {
   position: relative;
   float: right;
   background-color: blue;
-  width: 100px;
-  height: 25px;
+  width: 140px;
+  height: 30px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align:center;
+  font-weight: bold;
 }
 .content{
   float: left;
   background-color: grey;
+  border: 3px solid black;
 }
 .text{
   float: left;
 }
 .block{
   background-color: grey;
-  margin: 5px 5px;
+  margin: 15px 15px;
+
+}
+#chicken{
+  background-color: pink;
+}
+#beef{
+  background-color: red;
+  color:white;
+}
+#sushi{
+  background-color: yellow;
 }
 /********** Large devices only **********/
 @media (min-width: 992px) {
